@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-header {
+    @apply bg-blue-900 text-white shadow-md;
+}
+
+.navbar-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 items-center py-3;
+}
+
+.logo h1{
+    @apply text-xl font-bold;
+}
+
+.nav-link{
+    @apply hover:text-yellow-400 transition-colors duration-300;
+}
